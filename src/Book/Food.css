@@ -1,0 +1,335 @@
+:root{
+    --primary-color:rgb(0,202,255);
+    --secondary-dark-blue:rgb(62,115,245);
+    --milk-white:rgb(255,255,255);
+    --heading-text-color:rgb(136,136,136);
+    --normal-text-color:rgb(212,212,212);
+}
+
+*{
+    font-family: serif;
+}
+.four_images{
+    padding: 10px;
+    margin-top: 40px;
+   
+ 
+}
+.all_text_left_side_container{
+  /* border: 1px solid white; */
+ 
+  padding: 30px;
+}
+.four{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+.four img{
+  width:50%;
+  height: 155px;
+  object-fit: cover;
+
+}
+.food-container {
+  width: 100%;
+  height: auto;
+  background-color: rgba(150, 146, 146, 0.095);
+}
+.food-accum-container{
+    width: 100%;
+    height: auto;
+   
+   padding: 30px;
+}
+
+.book_yout_spot_h1{
+  font-size: 30px;
+letter-spacing: 1px;
+
+  color:black;
+  font-family: serif;
+}
+.image_ {
+  height:200px;
+}
+.finest_p{
+    font-size: 15px;
+    color:black;
+}
+.at_our_yoga_p{
+  color:black;
+    font-size: 14px;
+}
+.prepare_to_be_p{
+  color:black;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.four_images {
+    padding: 10px; 
+    width: 500px;
+  }
+
+  
+  
+  .food_btn{
+    background-color: transparent;
+      color:rgb(0, 0, 0);
+      border: 1px solid var(--primary-color);
+      font-size: 18px;
+      padding:10px 30px;
+      font-weight: 600;
+      transition: 1s;
+    
+    }
+    .food_btn:hover{
+    color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: inset 200px 0 0 0 var(--primary-color);
+        transition: 1s;
+    }
+  
+  .image_1,
+  .image_2,
+  .image_3,
+  .image_4 {
+   /* width: 180px;
+    height: 180px;
+   
+    margin-right: 20px; 
+    margin-bottom: 20px; */
+    border-radius: 5px;
+    
+  }
+
+  @keyframes my-animation {
+    from {
+        transform: translateY(40px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+.four_images{
+width: 300px;
+}
+
+.image_1{
+width: 120px !important;
+height: 120px !important;
+}
+.image_2{
+  width: 120px !important;
+height: 120px !important;
+}
+.image_3{
+  width: 120px !important;
+height: 120px !important;
+}
+.image_4{
+  width: 120px !important;
+  height: 120px !important; 
+}
+}
+
+
+
+@media only screen and (max-width: 1040px) {
+  .image_1,
+.image_2,
+.image_3,
+.image_4 {
+  width: 150px;
+  height: 150px;
+
+  
+}
+}
+
+
+@media only screen and (max-width: 992px) {
+    .image_1,
+  .image_2,
+  .image_3,
+  .image_4 {
+    width: 150px;
+    height: 150px;
+  
+    
+  }
+}
+
+@media only screen and (max-width: 762px) {
+    .four_images{
+        margin-left: 100px;
+    }
+   
+  }
+
+
+  @media only screen and (max-width: 470px) {
+    .four_images{
+    width: 250px;
+    }
+    
+    .image_1{
+    width: 90px !important;
+    height: 90px !important;
+    }
+    .image_2{
+      width: 90px !important;
+      height: 90px !important;
+    }
+    .image_3{
+      width: 90px !important;
+      height: 90px !important;
+    }
+    .image_4{
+      width: 90px !important;
+      height: 90px !important;
+    }
+    }
+
+  @media only screen and (max-width: 409px) {
+   .four_images{
+  /* border:1px solid black; */
+
+  position:relative;
+  left:-41px;
+
+  
+   }
+   
+   }
+
+   
+  @media only screen and (max-width: 321px) {
+   
+    .image_1{
+    width: 80px !important;
+    height: 80px !important;
+    }
+    .image_2{
+      width: 80px !important;
+      height: 80px !important;
+    }
+    .image_3{
+      width: 80px !important;
+    height: 80px !important;
+    }
+    .image_4{
+      width: 80px !important;
+      height: 80px !important;
+    }
+    }
+
+    @media only screen and (max-width: 320px) {
+      .four_images{
+    width: 190px;
+
+     
+}
+
+.image_1,
+.image_2,
+.image_3,
+.image_4 {
+  width: 30px;
+  height: 30px;
+
+  
+}
+      
+      }
+
+
+
+
+   @media only screen and (max-width: 693px) {
+   .four_images{
+    max-width: 350px;
+    
+   }
+   .image_1,
+  .image_2,
+  .image_3,
+  .image_4 {
+    width: 100px;
+    height: 100px;
+  
+    
+  }
+
+  }
+
+  @media only screen and (max-width: 468px) {
+
+    
+    .four_images{
+        max-width: 250px;
+        
+       }
+    .image_1,
+   .image_2,
+   .image_3,
+   .image_4 {
+     width: 80px;
+     height: 80px;
+   
+     
+   }
+ 
+   }
+   
+   @media only screen and (max-width: 360px) {
+
+    
+
+    .four_images{
+        max-width: 250px;
+        margin-left: 130px;
+      
+      
+        
+       }
+    .image_1,
+   .image_2,
+   .image_3,
+   .image_4 {
+     width: 85px;
+    padding:6px;
+     height: 100px;
+     margin-left: -20px;
+     border-radius: 15px;
+     
+
+  
+   
+     
+   }
+
+ 
+   }
+
+  
+  
+   @media only screen and (max-width: 360px) {
+    .four_images{
+      max-width: 250px;
+      margin-left: 110px;
+    
+    
+      
+     }
+   }
+
+   @media only screen and (max-width: 576px) {
+    .food-container{
+      padding: 30px 0; 
+    }
+  }

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+:root{
+    --primary-color:rgb(0,202,255);
+    --secondary-dark-blue:rgb(1,84,164);
+    --milk-white:rgb(255,255,255);
+    --heading-text-color:rgb(136,136,136);
+    --normal-text-color:rgb(188,200,218);
+}
+.icons_socail_media{
+ width:20px;
+ height: 20px;
+ transition: 1s;
+}
+.instagram:hover{
+    color: red;
+    transition: 1s;
+}
+
+.facebook:hover{
+    color:skyblue;
+    transition: 1s;
+}
+
+.x:hover{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.phone_btn {
+    margin: 15px 10px; /* Adjusted margin */
+    padding: 10px 20px; /* Adjusted padding */
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--secondary-dark-blue);
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid var(--secondary-dark-blue);
+    display: flex; /* Aligning text vertically */
+    align-items: center; /* Aligning text vertically */
+}
+
+.phone_btn:hover {
+    color: white;
+    box-shadow: inset 0 100px 0 0 var(--secondary-dark-blue);
+}
+
+
+
+.join_btn:active {
+    transform: scale(0.9);
+}
+
+
+.details{
+    color:var(--secondary-dark-blue) ;
+    font-family: serif;
+    font-optical-sizing: auto;
+text-transform:uppercase;
+    transition: 1s;
+    font-style: normal;
+    margin-top: 20px;
+font-size: 13px;
+transition: width 1s;
+
+/* font-family: 'Protest Riot'; */
+
+   
+}
+
+.details::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 6px;
+    background: transparent;
+    transition: 1s; /* Only transition width */
+  }
+  
+  .details:hover::after {
+    width: 100%;
+    background: var(--secondary-dark-blue);
+    transition: 1s;
+  }
+  
+
+
+
+
+.canva_container{
+    background-color:var(--milk-white);
+   
+}
+
+.nav_container{
+   margin-top: -5px;
+position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:var(--milk-white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.canva_details{
+    color:var(--secondary-dark-blue) ;
+    font-size: 18px;
+   margin-bottom:20px;
+   border-radius: 10px;
+   margin-left: 30px;
+   width: 270px;
+   font-family:serif;
+ 
+   
+  
+}
+.dharma{
+    margin-right: 10px;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.canva_details:hover{
+    color:var(--milk-white);
+    border:1px solid var(--secondary-dark-blue);
+   
+    padding: 7px 20px;
+   background-color:var(--secondary-dark-blue) ;
+}
+
+@media screen and (max-width:1300px){
+
+    .details{
+        display:none;
+        visibility:none;
+        border:10px solid black;
+    }
+    .phone_btn, .join_btn{
+        display:none;
+        visibility:none;
+    }
+  
+    
+    
+}
+
+
+
+
+
+
+    
+
+
+
+
+  
+
+  @media screen and (max-width:499px){
+
+    .toggle-side{
+display: block;
+    }
+     
+     
+ }
+
+  @media screen and (min-width:1299px){
+
+    .menu_icon{
+     display:none;
+     visibility: hidden;
+    
+    }
+   
+     
+     
+ }
+.toggle-side_navbar{
+    padding:10px;
+    color: black;
+    background: none;
+    border:none;
+    font-size:32px;
+    
+}

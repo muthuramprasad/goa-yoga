@@ -1,0 +1,97 @@
+:root {
+    --primary-color-dim: rgba(183, 234, 247, 0.478);
+    --primary-color: rgb(0, 202, 255);
+    --secondary-dark-blue: rgb(1, 84, 164);
+    --milk-white: rgb(255, 255, 255);
+    --heading-text-color: rgb(136, 136, 136);
+    --normal-text-color: rgb(188, 200, 218);
+  }
+  
+  .sanctuary-total-div-container{
+    background-color: rgba(179, 176, 176, 0.095);
+  }
+  .sanctuary-total-div-container-2 {
+    width: 100%;
+    height:auto;
+   
+
+
+
+}
+  #flower_in_santuary{
+    color:var(--secondary-dark-blue) !important;
+  }
+  .content_div{
+
+padding: 20px;
+margin-bottom: 20px;
+  }
+.sanctuary_awaits{
+  font-size: 30px;
+
+ 
+  color: black;
+  
+ 
+  padding: 10px;
+  font-family:serif;
+}
+.sanctuary_awaits-p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 30px;
+    font-family: serif;
+  
+}
+
+  .image_container_1_img_1 {
+    width: 500px; 
+    height: 400px; 
+  }
+  
+  .sanctuary-col-p-1 {
+    width: 500px;
+    text-align: justify;
+    height: 100px;
+    font-size: 14px;
+    background-color: white;
+    padding: 15px;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+
+    .sanctuary-col-p-1{
+      width:auto;
+      height: auto;
+    }
+    .image_container_1_img_1 {
+        width: 100%; 
+        height: 300px;
+      }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .sanctuary-total-div-container-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image_container_1 {
+      margin-bottom: 20px; /* Adjust spacing between the rows */
+    }
+  
+    .image_container_1_img_1 {
+      width: 95%; 
+      max-width: 500px; 
+      height: auto; 
+      object-fit: cover;
+    }
+    .sanctuary-col-p-1{
+      width: 95%; 
+      max-width: 500px; 
+      height: auto; 
+    }
+  }
+  

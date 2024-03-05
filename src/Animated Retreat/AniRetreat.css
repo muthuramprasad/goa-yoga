@@ -1,0 +1,121 @@
+.anime_container {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  .anime_image {
+    width: 100%;
+    height: 310px;
+    display: block;
+    /* filter: grayscale(100%); */
+    transition: .5s;
+  }
+  
+  .anime_container:hover .anime_image {
+    filter: none;
+    scale: 1.5;
+  }
+  
+  .anime_overlay {
+    position: absolute;
+    top: 55%;
+    width: 400px;
+    left: 200px;
+    transform: translate(-50%, -0%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 10px;
+    background-color: transparent; /* Initial background color */
+    transition: background-color 0.5s; /* Added transition for smooth color change */
+  }
+  
+  .anime_container:hover .anime_overlay {
+    background-color: rgba(0, 0, 0, 0.423); /* Change background color to black on hover */
+  }
+  
+  .arrow_function {
+    transform: rotate(-40deg);
+    font-size: 24px;
+    transition: transform 0.5s; /* Added transition for smooth transformation */
+  }
+  
+  .anime_container:hover .arrow_function {
+    transform: rotate(0);
+  }
+  
+  .anime_h1 {
+    font-family: "Madimi One", sans-serif !important;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+  }
+  
+  .anime_h1:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    display: block;
+    margin-top: 5px;
+    background: #fff;
+    transition: width 1s ease;
+  }
+  
+  .anime_container:hover .anime_h1:after {
+    width: 160px;
+    left: 0;
+    background: #fff;
+  }
+  
+  .anime_description {
+    font-family: "Madimi One", sans-serif !important;
+    font-style: normal;
+  }
+
+  .anime_Yoga_Retreat{
+    color: rgb(89,135,246);
+    font-size: 30px;
+  }
+
+
+  
+
+  
+
+   @media only screen and (max-width: 420px) {
+    .anime_container{
+        width: auto;
+    }
+    .anime_overlay{
+       
+      
+       height: auto;
+    }
+   
+    .anime_h1{
+        width: 200px;
+        font-size: 18px;
+    }
+    .anime_description{
+        width: 200px;
+    }
+   }
+
+  
+   /* @media only screen and (max-width: 993px) {
+    .anime_row{
+      display: flex;
+      
+      justify-content: center;
+      align-items:center;
+      height: auto;
+    }
+    .anime_container{
+      display: flex;
+      
+      justify-content: center;
+      align-items:center;
+      height: auto;
+    }
+   } */

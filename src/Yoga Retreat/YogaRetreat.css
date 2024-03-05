@@ -1,0 +1,123 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+:root {
+    --blue: #0596d6;
+    --black:rgb(178,168,157);;
+
+
+  }
+
+  .Yoga_h3 {
+    color: var(--primary-color);
+    font-family: "Poppins", sans-serif;
+  }
+  .Yoga_p{
+color: var(--black);
+padding: 5px;
+  }
+
+  .Yoga_bg{
+
+   background-repeat: no-repeat;
+   background-position: cover;
+ 
+  }
+
+  .yoga-inside-container{
+    padding: 15px;
+ 
+  }
+  .Yoga_p {
+    font-size: 14px;
+    --black:rgb(178,168,157);
+    padding:5px;
+  }
+  .Yoga_p>li{
+    font-size: 14px;
+    --black:rgb(178,168,157);
+    padding:5px;
+  }
+.Yoga_img{
+    border-style: none;
+ 
+    max-width: 100%;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.Yoga_heading{
+font-size: 32px;
+font-weight: 600;
+text-transform: uppercase;
+color: var(--primary-color);
+font-family: "Poppins", sans-serif;}
+
+.Yoga_heading2{
+    font-size: 16px;
+    padding: 5px;
+}
+@media(min-width:401px){
+    .Yoga_img{
+        max-height: 500px;
+        min-height: 500px;
+        min-width: 300px;
+        
+    }
+}
+@media(max-width:340px){
+    .Yoga_img{
+        max-height: 400px;
+    }
+}
+.Yoga_Con1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  padding: 10px;
+}
+
+.Yoga_heading{
+   text-align: justify;
+   font-size: 22px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: var(--primary-color);
+
+   padding: 5px;
+
+}
+@media(max-width:281px)
+{
+    .Yoga_heading{
+            font-size: 17px;
+    }
+    .Yoga_p{
+        font-size:15px;
+    }
+}
+.margin{
+    margin-right: 15px;
+}
+
+.Yoga_heading,.Yoga_heading2{
+    color: var(--primary-color);
+}
+.Yoga_p{
+    color: var(--black);
+}
+
+
+/* @media only screen and (max-width: 900px) {
+.Yoga_img{
+width:10px !important;
+height: auto;
+}
+} */
+
+

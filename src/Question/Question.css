@@ -1,0 +1,27 @@
+:root {
+    --primary-color-dim: rgba(183, 234, 247, 0.478);
+    --primary-color: rgb(0, 202, 255);
+    --secondary-dark-blue: rgb(1, 84, 164);
+    --milk-white: rgb(255, 255, 255);
+    --heading-text-color: rgb(136, 136, 136);
+    --normal-text-color: rgb(188, 200, 218);
+  }
+
+
+.faq_h1{
+    font-size: 30px;
+    font-family: serif;
+    color: var(--secondary-dark-blue);
+}
+
+.accordion-button:hover{
+    background-color:white;
+    border: none;
+} 
+
+
+.faq{
+    color: rgb(85,85,87);
+   font-family:'Poppins', sans-serif;
+
+}

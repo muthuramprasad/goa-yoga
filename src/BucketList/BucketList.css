@@ -1,0 +1,52 @@
+:root {
+    --blu: #0596d6 ;
+    --black:#616161
+  }
+
+#flex{
+display: flex;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.Yoga_h3{
+    font-size: 30px;
+
+ 
+    color: rgb(65,117,245);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family:serif;
+}
+
+.Bucket_h4{
+    font-size:22px;
+}
+.Bucket_p{
+    font-size:12px; 
+}
+.border_{
+    border-radius: 100px 2px 2px 100px;
+
+    width: 180px;
+    height: 150px;
+   
+    
+}
+
+.Y0ga_content_center{
+    display: flex;
+    justify-content: center;
+padding-left:10px;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 360px) {
+    .border_{
+      
+    
+        width: 100px;
+        height: 100px;
+       
+        
+    }
+}

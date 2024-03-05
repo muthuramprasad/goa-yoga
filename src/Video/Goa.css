@@ -1,0 +1,64 @@
+.goa_container {
+  width: 100%;
+  height:auto;
+  margin-top: 30px;
+}
+
+.Goa_a_reality{
+  font-size: 30px;
+
+ 
+  color: rgb(62,115,245);
+  
+ 
+  padding: 10px;
+  font-family:serif;
+}
+
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 450px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 600px;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Ensure the video is behind other content */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family:serif;
+  font-style: italic;
+  line-height: 1.8;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.421);
+  padding: 20px;
+
+  /* Additional styling as needed */
+}
+
+@media only screen and (max-width: 1024px) {
+.video{
+height: auto;
+}
+.overlay-text{
+  font-size: 22px;
+}
+}

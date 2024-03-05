@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.explore_container{
+    
+        /* The image used */
+        background-image: url("./Explore_Images/explore\ bg.jpg");
+      
+        /* Set a specific height */
+        min-height: 300px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+       
+          
+          
+}
+.explore_container_P{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-style: normal;
+    text-decoration: underline;
+}
+.explore_button{
+  
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-family:serif;
+   color: white;
+    
+
+}
+
+.explore_btn{
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    border: 1px solid white;
+    font-size: 18px;
+    padding:10px 30px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.explore_btn:hover{
+    color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: inset 200px 0 0 0 var(--primary-color);
+        transition: 1s;
+}

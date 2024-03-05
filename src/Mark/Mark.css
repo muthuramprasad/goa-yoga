@@ -1,0 +1,171 @@
+.iconOverlay {
+    position: relative;
+    display: inline-block;
+  }
+  .slider_h1{
+    font-size: 30px;
+    font-family:serif;
+    
+    margin-bottom:50px;
+    color: rgb(62,115,245);
+  }
+  .mark_h1{
+    font-size: 30px;
+    font-style:serif;
+    letter-spacing:5px;
+    margin-bottom:10px;
+  }
+  .mark_image_1 {
+    width: 360px;
+    height: 300px;
+    transition: opacity 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .image_1_for_accumodation {
+    position: relative;
+    display: inline-block;
+  
+    /* overflow: hidden; */
+  }
+  
+  .image_1_for_accumodation:hover .mark_image_1 {
+    opacity: 0.7; /* Dim the image on hover */
+  }
+  
+  .SuperRoom {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding:15px;
+   text-transform: uppercase;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.388);
+    transform: translate(-50%, -50%);
+    color: rgb(255, 251, 251); /* Initial text color */
+    transition: color 0.3s; /* Add transition for smooth effect */
+  }
+
+
+
+ 
+  
+  .mark_content_details {
+    width:  360px;
+    text-align: justify;
+    color:gray;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .iconOverlay .arrow-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.278);
+    z-index: 1; /* Ensure the icon is above the image */
+  }
+  
+
+  @media only screen and (max-width: 912px) {
+    .mark_image_1{
+      width:320px;
+      height: 300px;
+    }
+    .mark_content_details{
+      height: 340px;
+    
+      padding:10px;
+      width:325px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 545px) {
+    .mark_image_1{
+      width:215px;
+      height: 300px;
+     padding: 10px;
+    }
+    .mark_content_details{
+      height: 300px;
+      padding: 10px;
+    
+      width:215px;
+    }
+    .SuperRoom{
+      margin-left: -5px;
+      font-size: 18px;
+    }
+    
+    
+        
+      }
+
+
+      @media only screen and (max-width: 431px) {
+        .mark_image_1{
+          width:305px;
+          height: 300px;
+         padding: 10px;
+        }
+        .mark_content_details{
+          height: 300px;
+          padding: 10px;
+        
+          width:305px;
+        }
+        .SuperRoom{
+          margin-left: -5px;
+          font-size: 18px;
+        }
+        
+        
+            
+          }
+  @media only screen and (max-width: 370px) {
+.mark_image_1{
+  width:295px;
+  height: 300px;
+ padding: 10px;
+}
+.mark_content_details{
+  height: 300px;
+  padding: 10px;
+
+  width:295px;
+}
+.SuperRoom{
+  margin-left: -5px;
+  font-size: 18px;
+}
+
+
+    
+  }
+
+  @media only screen and (max-width: 321px) {
+    .mark_image_1{
+      width:205px;
+      height: 300px;
+     padding: 10px;
+    }
+    .mark_content_details{
+      height: 300px;
+      padding: 10px;
+    
+      width:205px;
+    }
+    .SuperRoom{
+      margin-left: -5px;
+      font-size: 18px;
+    }
+    
+    
+        
+      }
+
+ 

@@ -1,0 +1,102 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+    font-family: serif;
+}
+
+:root{
+    --primary-color-dim:rgba(183, 234, 247, 0.478);
+    --primary-color:rgb(0,202,255);
+    --secondary-dark-blue:rgb(1,84,164);
+    --milk-white:rgb(255,255,255);
+    --heading-text-color:rgb(136,136,136);
+    --normal-text-color:rgb(188,200,218);
+}
+
+
+
+
+.banner-container {
+    background-color: black;
+    background-image: url(./Images//image\ \(2\).jpg);
+    /* background-image: url(./Images//home.jpg); */
+ 
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+    background-size: cover;
+    /* background-position: left; */
+    font-family:  serif;
+  }
+
+  
+  
+  .justify-content-center {
+    height: 100%;
+  }
+  
+  .two-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .welcome {
+    font-size: 42px;
+  font-family: serif !important;
+    line-height: 26px;
+    color: var(--primary-color);
+  }
+  
+  .four-content {
+    font-size: 35px;
+    font-family: serif !important;
+    line-height: 52px;
+    color: var(--milk-white);
+    text-decoration: none solid white;
+  }
+  /* .text-center  {} */
+  .banner-btn-1,
+  .banner-btn-2 {
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--primary-color);
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .banner-btn-1:hover,
+  .banner-btn-2:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 var(--primary-color);
+  }
+  
+  .banner-btn-1:active,
+  .banner-btn-2:active {
+    transform: scale(0.9);
+  }
+
+  @media only screen and (max-width: 365px) {
+    four-content {
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--milk-white);
+        text-decoration: none solid white;
+      }
+  }

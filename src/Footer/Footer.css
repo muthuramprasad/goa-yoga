@@ -1,0 +1,134 @@
+
+:root{
+    --primary-color-dim:rgba(183, 234, 247, 0.478);
+    --primary-color:rgb(0,202,255);
+    --secondary-dark-blue:rgb(1,84,164);
+    --milk-white:rgb(255,255,255);
+    --heading-text-color:rgb(136,136,136);
+    --normal-text-color:rgb(188,200,218);
+}
+
+
+
+
+.Footer_container{
+    background: rgb(53,34,115);
+    background: linear-gradient(38deg, rgba(53,34,115,1) 43%, rgba(67,40,143,1) 56%);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    padding: 7px 15px;
+
+}
+
+.Footer_About{
+    text-align: justify;
+    color: var(--milk-white);
+    font-family: serif;
+    font-size: 30px;
+  
+}
+.Footer_About_p{
+    text-align: justify;
+    color: var(--milk-white);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    
+}
+
+.Quick_p{
+   
+    color: var(--milk-white);
+    font-family: "Poppins", sans-serif;
+    margin-left: 5px; 
+    font-size: 14px;
+}
+
+.Quick_h3{
+    text-align: justify;
+    color: var(--milk-white);
+    font-family: serif; 
+  
+  
+    font-size: 30px;
+}
+
+.contact_info{
+    text-align: justify;
+    color: var(--milk-white);
+    font-family: serif; 
+    font-size: 30px;
+
+}
+.footer_container_2{
+    padding: 10px 20px;
+}
+
+.contact{
+    text-align: justify;
+    color: var(--milk-white);
+    font-family: "Poppins", sans-serif; 
+    font-size: 14px;
+}
+
+.dharma{
+    animation: rotate 3s linear infinite;
+}
+
+.copyright hr{
+    color: var(--milk-white);
+    font-size: 14px;
+}
+
+
+.footer_search_btn{
+    padding: 12px 30px;
+    background-color:orange;
+    border:none;
+    border-radius: 30px;
+    color:white;
+    font-family: 'poppins';
+    margin-left: 4px;
+}
+.footer_input_field{
+    padding: 9px 20px; 
+    font-size: 18px;
+    border-radius: 30px;
+    
+}
+
+
+.copyright_p{
+    color: var(--milk-white);
+    font-size: 22px;
+    font-family: "Poppins", sans-serif; 
+    font-size: 14px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:425px){
+    .Footer_About_p{
+
+min-width: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .Footer_container{
+      padding: 30px 0; 
+    }
+  }
+  
